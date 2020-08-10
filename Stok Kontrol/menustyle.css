@@ -1,0 +1,32 @@
+body{
+	font-family: Open Sans,sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ul.menu {
+	background: #AD00E9;
+	height: 50px;
+}
+ul.menu li
+{
+	float: left;
+	border-right: 1px solid rgba(0,0,0,.3);
+}
+ul.menu li a{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	padding: 0 15px;
+	line-height: 50px;
+}
+ul.menu li a:hover{
+	color: #C2C2C2;
+}
